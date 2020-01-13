@@ -1,0 +1,21 @@
+{
+  "name": "user-details",
+  "version": "1.0.0",
+  "description": "rest api for crud operation on user",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "RK",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "path": "^0.12.7",
+    "sqlite3": "^4.1.1"
+  }
+}
